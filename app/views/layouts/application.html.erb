@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <% flash.each do |name, msg| %>
+      <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+    <% end %>
+    
     <% if user_signed_in? %>
       <ul>
         <li> <%= link_to "Submit Link", new_link_path %> </li>
@@ -24,8 +28,6 @@
       </ul>
     <% end %>
 
-    <p class="notice"> <%= notice %> </p>
-    <p class="alert"> <%= alert %> </p>
     <%= yield %>
   </body>
 </html>
