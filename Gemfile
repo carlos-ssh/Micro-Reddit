@@ -6,7 +6,8 @@ ruby '2.7.2'
 gem 'devise', '~> 4.7', '>= 4.7.3'
 #Bundler
 gem 'bundler', '2.2.2'
-
+# Bootstrap
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
 # Use sqlite3 as the database for Active Record
