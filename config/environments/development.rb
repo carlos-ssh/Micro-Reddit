@@ -20,6 +20,7 @@ Rails.application.configure do
     config.action_controller.perform_caching = true
     config.action_controller.enable_fragment_cache_logging = true
 
+
     config.cache_store = :memory_store
     config.public_file_server.headers = {
       'Cache-Control' => "public, max-age=#{2.days.to_i}"
@@ -76,4 +77,7 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
   # Add Rack::LiveReload to the bottom of the middleware stack with the default options:
   config.middleware.insert_after ActionDispatch::Static, Rack::LiveReload
+
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
 end
