@@ -4,6 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.2'
 # Devise
 gem 'devise', '~> 4.7', '>= 4.7.3'
+#Acts as Vote
+gem 'acts_as_votable', '~> 0.13.1'
 #Bundler
 gem 'bundler', '2.2.2'
 # Bootstrap
