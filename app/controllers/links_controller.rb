@@ -47,7 +47,7 @@ class LinksController < ApplicationController
   def destroy
     @link.destroy
     respond_to do |format|
-      format.html { redirect_to links_url, notice: 'Link was successfully destroyed.' }
+      format.html { redirect_to links_url, notice: 'Link was successfully Removed.' }
       format.json { head :no_content }
     end
   end

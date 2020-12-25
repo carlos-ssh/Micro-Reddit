@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Rails.application.routes.draw do
   resources :comments
   devise_for :users
@@ -10,5 +8,7 @@ Rails.application.routes.draw do
     end
     resources :comments
   end
+  
   root to: 'links#index'
+  
 end
