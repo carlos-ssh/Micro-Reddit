@@ -283,7 +283,7 @@ DEPENDENCIES
   acts_as_votable (~> 0.13.1)
   bootsnap (>= 1.4.4)
   bootstrap-sass (~> 3.4, >= 3.4.1)
-  bundler (= 2.2.2)
+  bundler (~> 2.0, >= 2.0.2)
   byebug
   capybara (>= 3.26)
   devise (~> 4.7, >= 4.7.3)

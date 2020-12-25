@@ -12,7 +12,7 @@ gem 'record_tag_helper', '~> 1.0'
 # Acts as Vote
 gem 'acts_as_votable', '~> 0.13.1'
 # Bundler
-gem 'bundler', '2.2.2'
+gem 'bundler', '~> 2.0', '>= 2.0.2'
 # SimpleForm
 gem 'simple_form'
 # Bootstrap
