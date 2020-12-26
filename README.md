@@ -34,8 +34,8 @@ Currently the application runs only in the rails console.
 
 👤 **Carlos SSH**
 
-- Github: [@Miguelus373](https://github.com/carlos-ssh)
-- Linkedin: [Miguel-Uzcátegui](https://www.linkedin.com/in/carlos-ssh/) 
+- Github: [@carlos-ssh](https://github.com/carlos-ssh)
+- Linkedin: [carlos-ssh](https://www.linkedin.com/in/carlos-ssh/) 
 
 ## 🤝 Contributing
 
